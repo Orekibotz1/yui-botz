@@ -14,23 +14,23 @@ global.APIs = {
 
 // Apikey Website Api
 global.APIKeys = {
-	'https://zenzapis.xyz': 'Apikey kalian', // Masukin apikey kalian
+	'https://zenzapis.xyz': 'F5AEF8158CE0', // Masukin apikey kalian
 }
 
 // Other
-global.owner = ['6281575886399','6281575886399','6281575886399']
-global.premium = ['6281575886399']
-global.ownernomer = '6281575886399'
-global.ownername = 'RiychDwayne'
-global.botname = 'Chika-Md'
-global.footer = 'RiychDwayne'
+global.owner = ['6285601700562','6282136421665']
+global.premium = ['6281575886399','6285601700562']
+global.ownernomer = '6282136421665'
+global.ownername = 'Himitsu'
+global.botname = 'Asisten Yui-chan'
+global.footer = 'Yui-chan'
 global.ig = 'https://instagram.com/riychdwayne'
-global.email = 'riychh.20@gmail.com'
+global.email = 'honkaikuzu3@gmail.com'
 global.region = 'Indonesia'
 global.sc = 'https://youtube.com/channel/UCtM-pDaaGVRe4BJ7w4qE4Bw'
 global.myweb = 'https://api-riychdwayne.herokuap.com'
-global.packname = 'Chika-Md'
-global.author = 'WhatsApp Bot'
+global.packname = '© lu nyolong gw bantai :v'
+global.author = 'By Yui-chan'
 global.sessionName = 'chika'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
@@ -42,13 +42,13 @@ global.mess = {
     group: 'Fitur Digunakan Hanya Untuk Group!',
     private: 'Fitur Digunakan Hanya Untuk Private Chat!',
     bot: 'Fitur Khusus Pengguna Nomor Bot',
-    wait: 'Loading...',
+    wait: ' *yang sabar kak, semua itu harus ada prosesnya....* ',
     error: 'Fitur sedang error!',
     endLimit: 'Limit Harian Anda Telah Habis, Limit Akan Direset Setiap Jam 12',
 }
     global.limitawal = {
     premium: "Infinity",
-    free: 2,
+    free: 10,
     monayawal: 1000
 }
    global.rpg = {
