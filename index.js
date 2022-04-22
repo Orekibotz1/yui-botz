@@ -136,9 +136,39 @@ async function startchika() {
                 }
 
                 if (anu.action == 'add') {
-                    chika.sendMessage(anu.id, { image: { url: ppuser }, contextInfo: { mentionedJid: [num] }, caption: `Welcome To ${metadata.subject} @${num.split("@")[0]}` })
+                    chika.sendMessage(anu.id, { image: { url: ppuser }, contextInfo: { mentionedJid: [num] }, caption: `
+Halo @${num.split("@")[0]}
+Welcome To GROUP
+${metadata.subject}
+
+┏━━❖ NEW MEMBER INTRO
+┃❏ ɴᴀᴍᴀ: 
+┃❏ ᴜᴍᴜʀ: 
+┃❏ ᴋᴇʟᴀs: 
+┃❏ ɢᴇɴᴅᴇʀ: 
+┃❏ ᴀsᴋoᴛ: 
+┣━━━━❖ *NOTE* _↓↓↓_
+┣ Jangan Lupa Untuk Membaca 
+┣ Rules Dan Peraturan Yg Ada
+┣ Dan Mematuhinya👌
+╔═════ஓ๑♡๑ஓ═════╗
+           *Semoga Betah!*
+╚═════ஓ๑♡๑ஓ═════╝
+
+© By Yui-chan 
+` })
                 } else if (anu.action == 'remove') {
-                    chika.sendMessage(anu.id, { image: { url: ppuser }, contextInfo: { mentionedJid: [num] }, caption: `@${num.split("@")[0]} Leaving To ${metadata.subject}` })
+                    chika.sendMessage(anu.id, { image: { url: ppuser }, contextInfo: { mentionedJid: [num] }, caption: `
+                    Sayonara @${num.split("@")[0]} 
+
+Keluar Dari Group _↓↓↓_
+ ${metadata.subject}
+
+Gw Doain Semoga Lu Selalu Jdi Beban Dikehidupan Lu Yg Sekarang🗿
+Dan Selamat Menikmatinya🤙🗿
+
+© By Admin gc
+` })
                 }
             }
         } catch (err) {
